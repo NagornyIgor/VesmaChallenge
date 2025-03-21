@@ -1,0 +1,10 @@
+services:
+  vesma.api:
+    image: vesmaapi:latest
+    container_name: vesma.api
+    build:
+      context: .
+      dockerfile: Vesma.Api/Dockerfile
+    ports:
+      - "8010:8080"
+      - "8011:8081"

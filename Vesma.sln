@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vesma.Api", "Vesma.Api\Vesma.Api.csproj", "{8AC86A60-498A-4DF6-AD3B-CB1203D42FFA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81D0B73A-7892-4AF2-A089-BBE360F67A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vesma.Core", "Vesma.Core\Vesma.Core.csproj", "{481E7F54-2AD3-4929-94A3-E3408C85A8DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92634801-2C48-4FAC-AE8E-CF8F6BF58B4D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vesma.Data", "Vesma.Data\Vesma.Data.csproj", "{16754D62-75F8-482B-B11A-B5A837E2907E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vesma.Contracts", "Vesma.Contracts\Vesma.Contracts.csproj", "{E4D884D3-1E3B-497B-872F-9912A09899A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4B8A54E3-8714-4744-8642-9265471D4F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vesma.Tests", "Vesma.Tests\Vesma.Tests.csproj", "{D315634D-EEC9-4AC3-AD8B-C11B80604A4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AC86A60-498A-4DF6-AD3B-CB1203D42FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC86A60-498A-4DF6-AD3B-CB1203D42FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC86A60-498A-4DF6-AD3B-CB1203D42FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC86A60-498A-4DF6-AD3B-CB1203D42FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D0B73A-7892-4AF2-A089-BBE360F67A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D0B73A-7892-4AF2-A089-BBE360F67A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D0B73A-7892-4AF2-A089-BBE360F67A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D0B73A-7892-4AF2-A089-BBE360F67A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{481E7F54-2AD3-4929-94A3-E3408C85A8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481E7F54-2AD3-4929-94A3-E3408C85A8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481E7F54-2AD3-4929-94A3-E3408C85A8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481E7F54-2AD3-4929-94A3-E3408C85A8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16754D62-75F8-482B-B11A-B5A837E2907E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16754D62-75F8-482B-B11A-B5A837E2907E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16754D62-75F8-482B-B11A-B5A837E2907E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16754D62-75F8-482B-B11A-B5A837E2907E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D884D3-1E3B-497B-872F-9912A09899A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D884D3-1E3B-497B-872F-9912A09899A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D884D3-1E3B-497B-872F-9912A09899A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D884D3-1E3B-497B-872F-9912A09899A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D315634D-EEC9-4AC3-AD8B-C11B80604A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D315634D-EEC9-4AC3-AD8B-C11B80604A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D315634D-EEC9-4AC3-AD8B-C11B80604A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D315634D-EEC9-4AC3-AD8B-C11B80604A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D315634D-EEC9-4AC3-AD8B-C11B80604A4E} = {4B8A54E3-8714-4744-8642-9265471D4F8F}
+	EndGlobalSection
+EndGlobal
